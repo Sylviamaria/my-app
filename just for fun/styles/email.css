@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* overflow: hidden; */
+    padding-bottom: 1px;
+}
+body {
+    /* 0A8AFF #1e0aff rgb(2, 77, 223)*/
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Averta", helvetica, arial, sans-serif;
+    height: 100dvh;
+    width: 100dvw;
+    color: rgb(50, 50, 50);
+    /* overflow: hidden; */
+}
+svg {
+    width: 50px;
+    height: 20px;
+    /* fill: white; */
+}
+a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+.icon {
+    font-size: 1.5rem;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem .7rem;
+    border-bottom: 2px solid rgb(207, 205, 205);
+    box-shadow: 0px 0px 5px 1px rgb(182, 182, 182);
+    position: fixed;
+    width: 100%;
+    top:0;
+    background: white;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.logo {
+    background: #00a6ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 4.2rem 1.1rem 1.3rem 1.1rem;
+}
+.ticket-details {
+    margin: .8rem 1.1rem;
+    text-align: justify;
+}
+.flex1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+    margin: 0 1.1rem;
+}
+.flex1 strong {
+    margin-top: 5px;
+}
+
+h4 {
+    margin: .5rem 1.1rem;
+    font-size: .8em;
+}
+strong {
+    font-size: .9em;
+}
+
+#get-tickets {
+    color: white;
+}
+
+button[type="button"] {
+    background: #00a6ff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    border-radius: 40px;
+    padding: .7rem 2rem;
+    margin: .5em 1.1rem;
+}
+.paragraph {
+    margin: .5rem 1.1rem;
+    font-size: .9rem;
+}
+.event-name {
+    margin: .2rem -0.1px;
+    font-size: 105%;
+}
+.event-date {
+    margin-left: .1rem;
+    font-size: .8em;
+    margin-bottom: .7rem;
+}
+.event-image{
+    width: 300px;
+    height: 200px;
+}
+.image-container {
+    margin-bottom: 1rem;
+}
+i span {
+    margin-right: 2px;
+}
+i sup {
+    font-size: .4em;
+    position: relative;
+    top: 2px;
+}
+
+ /* &#8226 bullet */
+
+ /* &#189  fraction */
+
+ /* &#174  registered trademark */

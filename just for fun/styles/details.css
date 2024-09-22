@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* overflow: hidden; */
+    padding-bottom: 1px;
+}
+body {
+    /* 0A8AFF #1e0aff rgb(2, 77, 223)*/
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Averta", helvetica, arial, sans-serif;
+    height: 100dvh;
+    width: 100dvw;
+    /* overflow: hidden; */
+    color: rgb(67, 67, 67);
+}
+
+.x {
+    width: 30px;
+    height: 18px;
+    fill: white;
+}
+header {
+    background-color: rgb(25, 24, 24);
+    padding: 1rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position:fixed;
+    width: 100%;
+    top:0;
+    background: black;
+}
+.my-tickets {
+    color: #fff;
+}
+main {
+    background-color: white;
+    margin-top: 3.5rem;
+}
+.seat-location, .event-name, .event-venue, .order-details, .ticket-type, .purchase-date, .ticket-price {
+    padding: .7rem 1rem;
+    border-bottom: 2px solid rgb(235, 234, 234);
+    line-height: 1.5;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex span {
+    display: flex;
+}
+.small {
+    font-size: .9em;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.terms {
+    padding: .7rem;
+    border-bottom: 2px solid rgb(235, 234, 234);
+    line-height: 1.3;
+}
+.terms h4 {
+    margin-bottom: 5px;
+}
+.terms p {
+    font-size: 15.6px;
+}

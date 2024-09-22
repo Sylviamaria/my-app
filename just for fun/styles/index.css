@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* overflow: hidden; */
+    padding-bottom: 1px;
+    height: 100vh;
+}
+body {
+    /* 0A8AFF #1e0aff rgb(2, 77, 223)*/
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Averta", helvetica, arial, sans-serif;
+    /* height: 100vh; */
+    width: 100dvw;
+    color: rgb(50, 50, 50);
+    /* overflow: hidden; */
+}
+svg {
+    width: 50px;
+    height: 20px;
+    /* fill: white; */
+    /* background: rgba(5, 97, 200, 1);
+    background: rgba(1, 108, 224, 1);
+    background: rgba(15, 122, 240, 1);
+    background: rgba(8, 23, 71, 1);
+    border: 1px solid rgba(2, 108, 223, 1) */
+}
+a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+span {
+    font-size: 1.5rem;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem .7rem;
+    box-shadow: 2px 0px 20px 5px rgb(7, 146, 158);
+    color: white;
+    background: url(/images/ticket\ image\ logo\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+main {
+    background: url(/images/ticket\ logo\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem 1rem;
+
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem 1rem;
+    color: rgb(213, 219, 248);
+    font-weight: 800;
+    box-shadow: 2px 0px 20px 5px rgb(7, 146, 158);
+    border-radius: 25px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+input {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    margin: 5px 0px 10px 0px;
+    border-radius: 25px;
+}
+input:focus {
+    border: 2px solid rgb(50, 50, 244);
+}
+input[type="file"] {
+    background-color: white;
+}
+button a {
+    color: white;
+}
+button {
+    background: blue;
+    border: none;
+    outline: none;
+    padding: .7rem 1rem;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.1em;
+    font-weight: 800;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
